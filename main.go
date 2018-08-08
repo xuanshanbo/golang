@@ -1,10 +1,10 @@
 package main
 import (
 	"fmt"
-	my "./server.go"
+	"./webServer.go"
 )
 
 func main(){
 	fmt.Println("ces")
-	my.StartWebServer("6767")
+	StartWebServer("6767")
 }
